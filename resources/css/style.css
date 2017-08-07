@@ -26,3 +26,10 @@ header h1 {
 header a {
 	color: aquamarine;
 }
+
+/* video */
+
+.video {
+	text-align: center;
+	margin-top: 2rem;
+}
