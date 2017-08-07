@@ -8,23 +8,32 @@ body {
 }
 
 .container {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3.125rem;
+}
+
+h2 {
+	font-size: 2.625rem;
+	font-weight: 500;
+}
+
+p {
+	font-size: 1.3125rem;
+}
+
+a {
+	color: aquamarine;
 }
 
 /* header */
 
 header {
 	text-align: center;
-}
-
-header h1 {
-	color: #fff;
-	font-size: 3.125rem;
-}
-
-a {
-	color: aquamarine;
 }
 
 /* video + supporting */
@@ -35,12 +44,9 @@ a {
 	color: #fff;
 }
 
-h2 {
-	font-size: 2.625rem;
-	font-weight: 300;
-}
+/* footer */
 
-p {
-	font-size: 1.3125rem;
+footer p {
+	text-align: right;
+	color: gray;
 }
-
